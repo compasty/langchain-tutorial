@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["langchain[openai]>=0.3.26", "requests>=2.32.4"]
+dependencies = [
+    "dashscope>=1.23.5",
+    "ipykernel>=6.29.5",
+    "langchain-community>=0.3.26",
+    "langchain[deepseek,openai]>=0.3.26",
+    "notebook>=7.4.3",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
+]
